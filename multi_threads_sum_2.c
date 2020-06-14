@@ -84,5 +84,12 @@ int main(void) {
     printf("Suma obliczona standardowo: %lld\n",S_wer);
     printf("%s",(S_thr == S_wer) ? "Suma się zgadza\n" : "Sumy są różne\n");
 
+    //zwalnianie pamięci
+    free(w);
+    free(res);
+    free(sa);
+    free(S);
+    free(tab);
+
 }
 
